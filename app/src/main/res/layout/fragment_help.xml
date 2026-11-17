@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF3E0"
+    tools:context=".HelpFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How to Play"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#75451F"
+            android:gravity="center"
+            android:layout_marginBottom="24dp"
+            android:background="#F5D7AD"
+            android:padding="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome to Snack Shack Shuffle!"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#75451F"
+            android:gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Read the customer's smoothie order."
+            android:textSize="18sp"
+            android:textColor="#75451F"
+            android:layout_marginBottom="16dp"
+            android:background="#FFE5C4"
+            android:padding="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Tap the ingredients needed to make the smoothie."
+            android:textSize="18sp"
+            android:textColor="#75451F"
+            android:layout_marginBottom="16dp"
+            android:background="#FFE5C4"
+            android:padding="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Tap Submit Order to serve the customer."
+            android:textSize="18sp"
+            android:textColor="#75451F"
+            android:layout_marginBottom="16dp"
+            android:background="#FFE5C4"
+            android:padding="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Earn 10 points for every correct smoothie!"
+            android:textSize="18sp"
+            android:textColor="#75451F"
+            android:layout_marginBottom="16dp"
+            android:background="#FFE5C4"
+            android:padding="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Incorrect smoothies cost you one heart. You start with three hearts."
+            android:textSize="18sp"
+            android:textColor="#75451F"
+            android:layout_marginBottom="16dp"
+            android:background="#FFE5C4"
+            android:padding="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. Complete five orders to finish your shift. Lose all three hearts and your shift ends early!"
+            android:textSize="18sp"
+            android:textColor="#75451F"
+            android:layout_marginBottom="32dp"
+            android:background="#FFE5C4"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/backToWelcomeButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Go Back"
+            android:backgroundTint="#E8A64B"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+</ScrollView>

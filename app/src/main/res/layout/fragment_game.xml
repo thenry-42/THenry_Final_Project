@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF3E0"
+    tools:context=".GameFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/shopNameText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome to Your Shop!"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#75451F"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/scoreText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Score: 0"
+            android:textSize="18sp"
+            android:textColor="#2E7D32"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/heartsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hearts: ♥ ♥ ♥"
+            android:textSize="20sp"
+            android:textColor="#D65A45"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:id="@+id/orderProgressText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Order 1 of 5"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#75451F"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/orderTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Customer Order"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#75451F"
+            android:gravity="center"
+            android:background="#F5D7AD"
+            android:padding="12dp" />
+
+        <TextView
+            android:id="@+id/orderDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Berry Buddy Smoothie"
+            android:textSize="22sp"
+            android:textColor="#75451F"
+            android:gravity="center"
+            android:layout_marginTop="12dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/orderIngredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Strawberry, Banana, Blueberry"
+            android:textSize="18sp"
+            android:textColor="#75451F"
+            android:gravity="center"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/ingredientPrompt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose your ingredients!"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#75451F"
+            android:gravity="center"
+            android:layout_marginTop="32dp"
+            android:background="#F5D7AD"
+            android:padding="12dp" />
+
+
+        <Button
+            android:id="@+id/strawberryButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Strawberry 🍓"
+            android:backgroundTint="#B84A55"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="6dp" />
+
+        <Button
+            android:id="@+id/bananaButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Banana 🍌"
+            android:backgroundTint="#D49A27"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="6dp" />
+
+        <Button
+            android:id="@+id/blueberryButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Blueberry 🫐"
+            android:backgroundTint="#5267A8"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="6dp" />
+
+        <Button
+            android:id="@+id/mangoButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mango 🥭"
+            android:backgroundTint="#C46A28"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="6dp" />
+
+        <TextView
+            android:id="@+id/selectedIngredientsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Smoothie: Empty"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#75451F"
+            android:gravity="center"
+            android:layout_marginTop="24dp"
+            android:background="#F5D7AD" />
+
+        <Button
+            android:id="@+id/submitOrderButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit Order"
+            android:backgroundTint="#75451F"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="20dp" />
+
+
+        <TextView
+            android:id="@+id/orderFeedbackText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#75451F"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+</ScrollView>
